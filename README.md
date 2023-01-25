@@ -61,3 +61,13 @@ Python is quite widely used for its functional capabilites. The syntax is very e
 ### Procedural
 
 As python is capable of functional programming, it can also be used for procdural programming. The advantage of this is that it allows for code reusability with its implementation of generic procedures. Despite this, procedural programming can often lead to bottlenecks as the functions may become overused.
+
+## Under-the-Hood
+
+### Variables
+
+When we declare a variable with a value, under the hood the variable is actually just a reference in memory. By itself this would not be a problem but with the introduction of immutable types, some references cannot actually be removed. This can often lead to the issue of copying a variable instead of reassigning it to something else.
+
+### Functions
+
+The python language comes with many functions which may seem strange. For example, determining the difference between append() and extend(). While initially the may appear to do the same thing, in actuality, append() only adds one element to the end of a list whereas extend() adds all elements in an iterable to the end of a list.
