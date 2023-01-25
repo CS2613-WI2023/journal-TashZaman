@@ -43,3 +43,7 @@ Tuples are variables that are capable of storing multiple values/characteristics
 ### Dictionary
 
 Dictionaries are a list that are capable of storing key:value pairs. A value can be obtained in a dictionary given the correct key.
+
+### Libraries
+
+Libraries are modules that can be imported into a project which are capable of providing additional functionality. There are various libraries that are specialized in certain areas of study such as: pandas, numpy and matplotlib which are primarily used in data science.
