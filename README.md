@@ -12,7 +12,7 @@ Within the Comparative operations are the usual compare: "==", greater/less than
 
 Within the Bitwise operations are AND: "&", OR: "|" and Shift: "^".
 
-Within the Assignment operations are assign: "=", addition assign: "+=", and subtraction assign: "-=".
+Within the Assignment operations are assign: "=", addition assign: "+=", and subtraction assign: "-=". It is important to note that all variables are considered pointers in python.
 
 ### Code Execution
 
@@ -20,4 +20,10 @@ Programs should always be named as a .py file so that they can be compiled and r
 
 ### Variable Declaration:
 
-In python, variables do not need to be declared with a specific type as it is mutable (can change). The variable type is automatically set after a value is given to them. We can also manually set the variable with a primative data type to make it immutable (cannot change). Common primative types consist of: int, str, float, double and boolean
+In python, variables do not need to be declared with a specific type as it is mutable (can change). The variable type is automatically set after a value is given to them. We can also manually set the variable with a primative data type to make it immutable (cannot change). Common primative types consist of: int, str, float, double and boolean. We also have access to abstract data types such as lists, arrays, queues, dictionaries and tuples.
+
+### Miscellaneous
+
+Lines of code can be commented using "#".
+
+Python does not require semi-colons after each line of code. Instead, semi-colons are used to concatenate multiple statements into one line.
